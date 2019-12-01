@@ -1,32 +1,49 @@
 baseURL = "https://musing-banach-65cb6f.netlify.com/"
 languageCode = "de"
-theme = "alex"
 title = "Alex Mayer"
+theme = "alex"
+
 [params]
-button = "Angebot einholen"
-description1 = " - Eine Liebeserklärung für jeden Tag! "
-description2 = " - Tolle News: Ich bin bei der Endauswahl 2018! "
-description3 = " - der neueste Blog-Eintrag!"
-header = "Leistungen"
-header1 = "365 Postkarten"
-header2 = "Award-Nominierung"
-header3 = "CMYK erklärt"
-image1 = "images/dina-meyer.jpg"
-image2 = "images/thomas-meyer.jpg"
-image3 = "images/vorstand.jpg"
-job1 = "CEO headless Ltd."
-job2 = "Cutter's Finest"
-job3 = "KR Ernst Anker und Dr. Florian Eisner"
-leistung1 = "Design"
-leistung2 = "Strategie"
-leistung3 = "Consulting"
-link = "__"
-name1 = "Tina Ubuntu,"
-name2 = "Tom Herzog,"
-name3 = "Vorstand Müller AG"
-quote1 = "Alex' Redesign hat maßgeblich mitgeholfen, unseren Umsatz um 20% in die Höhe zu treiben!"
-quote2 = "Große Webkunst - keine Kunst mit Alex Mayer!"
-quote3 = "Das Store-Konzept von Alex Mayer hat unsere größten Erwartungen übertroffen."
+
+# Header
 ueberschriftZ1 = "Glänzende Ideen"
 ueberschriftZ2 = "für leuchtende"
 ueberschriftZ3 = "Augen"
+button = "Angebot einholen"
+
+# index.html
+
+    # Leistungen
+
+    header = "Leistungen"
+    leistung1 = "Design"
+    leistung2 = "Strategie"
+    leistung3 = "Consulting"
+
+    # News
+
+    header1 = "365 Postkarten"
+    description1 = " - Eine Liebeserklärung für jeden Tag! "
+    header2 = "Award-Nominierung"
+    description2 = " - Tolle News: Ich bin bei der Endauswahl 2018! "
+    header3 = "CMYK erklärt"
+    description3 = " - der neueste Blog-Eintrag!"
+
+    link = "__" # empty link, no sites to link to
+
+    # Referenzen
+
+    image1 = "images/dina-meyer.jpg"
+    name1 = "Tina Ubuntu,"
+    job1 = "CEO headless Ltd."
+    quote1 = "Alex' Redesign hat maßgeblich mitgeholfen, unseren Umsatz um 20% in die Höhe zu treiben!"
+    
+    image2 = "images/thomas-meyer.jpg"
+    name2 = "Tom Herzog,"
+    job2 = "Cutter's Finest"
+    quote2 = "Große Webkunst - keine Kunst mit Alex Mayer!"
+    
+    image3 = "images/vorstand.jpg"
+    name3 = "Vorstand Müller AG"
+    job3 = "KR Ernst Anker und Dr. Florian Eisner"
+    quote3 = "Das Store-Konzept von Alex Mayer hat unsere größten Erwartungen übertroffen."
