@@ -16,23 +16,23 @@
     <body>
         <header>
             <div class=container>
-                <h1 class="title"><a href="/">{{ .Title}}</a></h1>
+                <h1 class="title"><a href="{{ .Site.BaseURL }}">{{ .Title}}</a></h1>
                 <nav class="title__navigation">
                     <ul id="normal_nav">
                         <li>
-                            <a href="/">Start</a>
+                            <a href="{{ .Site.BaseURL }}">Start</a>
                         </li>
                         <li>
-                            <a href="__">Leistungen</a>
+                            <a href="{{ .Site.BaseURL }}">Leistungen</a>
                         </li>
                         <li>
-                            <a href="__">Blog</a>
+                            <a href="{{ .Site.BaseURL }}">Blog</a>
                         </li>
                         <li>
                             <a href="/about/">Über mich</a>
                         </li>
                         <li>
-                            <a href="__">Kontakt</a>
+                            <a href="{{ .Site.BaseURL }}">Kontakt</a>
                         </li>
                     </ul>
 

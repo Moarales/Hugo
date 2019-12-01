@@ -5,6 +5,8 @@ theme = "alex"
 
 [params]
 
+authors = ["Christoph Mayerhofer,", "Lena Heiglauer,", "Daniela Dottolo"]
+
 # Header
 ueberschriftZ1 = "Glänzende Ideen"
 ueberschriftZ2 = "für leuchtende"
