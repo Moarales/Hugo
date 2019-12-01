@@ -4,18 +4,18 @@
 {{partial "header.html" .}}
 
     <main>
-        <h3>Leistungen</h3>
+        <h3>{{.Site.Params.header}}</h3>
         <section class="Leistungen">
             <div class="Leistungen__design">
-                <p>Design</p>
+                <p>{{.Site.Params.leistung1}}</p>
                 <img src="images/design.svg" alt="Malutensilien">
             </div>
             <div class="Leistungen__strategie">
-                <p>Strategie</p>
+                <p>{{.Site.Params.leistung2}}</p>
                 <img src="images/strategy.svg" alt="Kreis mit strategisch gezogenen Linien">
             </div>
             <div class="Leistungen__consulting">
-                <p>Consulting</p>
+                <p>{{.Site.Params.leistung3}}</p>
                 <img src="images/consulting.svg" alt="Glühbirne">
             </div>
         </section>
@@ -24,16 +24,16 @@
         <section id="News">
             <ul>
                 <li>
-                    <p><a href="__">365 Postkarten</a> - Eine Liebeserklärung für jeden Tag! <a href="__">[mehr
+                    <p><a href="{{.Site.Params.link}}">{{.Site.Params.header1}}</a>{{.Site.Params.description1}}<a href="__">[mehr
                             erfahren]</a></p>
                 </li>
                 <li>
-                    <p><a href="__">Award-Nominierung</a> - Tolle News: Ich bin bei der Endauswahl 2018! <a
+                    <p><a href="{{.Site.Params.link}}">{{.Site.Params.header2}}</a>{{.Site.Params.description2}}<a
                             href="__">[mehr erfahren]</a></p>
 
                 </li>
                 <li>
-                    <p><a href="__">CMYK erklärt</a> - der neueste <a href="__">Blog</a>-Eintrag! <a href="__">[mehr
+                    <p><a href="{{.Site.Params.link}}">{{.Site.Params.header3}}</a>{{.Site.Params.description3}}<a href="__">[mehr
                             erfahren]</a></p>
 
                 </li>
@@ -42,30 +42,30 @@
         <h3>Referenzen</h3>
         <section id="Referenzen">
             <div class="tinapic">
-                <img src="images/dina-meyer.jpg" alt="Frau mit lockigen, langen Haaren namens Tina Ubuntu">
+                <img src="{{.Site.Params.image1}}" alt="Frau mit lockigen, langen Haaren namens Tina Ubuntu">
             </div>
-            <p class="tinaUbuntu">Tina Ubuntu,<br>CEO headless Ltd.</p>
+            <p class="tinaUbuntu">{{.Site.Params.name1}}<br>{{.Site.Params.job1}}</p>
             <blockquote cite="__" class="TinaZitat">
-                <p>Alex' Redesign hat maßgeblich mitgeholfen, unseren Umsatz um 20% in die Höhe zu treiben!</p>
+                <p>{{.Site.Params.quote1}}</p>
             </blockquote>
             <div class="tomHerzogPic">
-                <img src="images/thomas-meyer.jpg" alt="Glatzköpfiger Mann mit schwarzer Brille namens Tom Herzog">
+                <img src="{{.Site.Params.image2}}" alt="Glatzköpfiger Mann mit schwarzer Brille namens Tom Herzog">
             </div>
-            <p class="TomHerzog">Tom Herzog,<br>Cutter's Finest</p>
+            <p class="TomHerzog">{{.Site.Params.name2}}<br>{{.Site.Params.job2}}</p>
             <blockquote class="tomZitat" cite="__">
-                <p>Große Webkunst - keine Kunst mit Alex Mayer!</p>
+                <p>{{.Site.Params.quote2}}</p>
             </blockquote>
             <div class="blau"></div>
             <div class="semicolon">
                 <img src="images/quotation_mark.svg" alt="Großes, weißes Hochkomma">
             </div>
             <div class="vorstandPic">
-                <img src="images/vorstand.jpg" alt="Vorstand Müller AG Ernst Anker und Florian Eisner">
+                <img src="{{.Site.Params.image3}}" alt="Vorstand Müller AG Ernst Anker und Florian Eisner">
             </div>
             <div class="textVorstand">
-                <p class="namenVorstand">Vorstand Müller AG<br>KR Ernst Anker und Dr. Florian Eisner</p>
+                <p class="namenVorstand">{{.Site.Params.name3}}<br>{{.Site.Params.job3}}</p>
                 <blockquote class="zitatVorstand" cite="__">
-                    <p>Das Store-Konzept von Alex Mayer hat unsere größten Erwartungen übertroffen.</p>
+                    <p>{{.Site.Params.quote3}}</p>
                 </blockquote>
             </div>
 
